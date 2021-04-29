@@ -1,0 +1,38 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+  }
+body main #welcome-section {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.12), rgba(0, 0, 0, 0.37)),
+      url("./images/forestbridge.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100%;
+  }
+  body main #welcome-section .welcome-contents {
+    color: white;
+    margin:auto;    
+    min-height: 70vh;
+    padding-top: 30vh;
+    font-size: 1.5em;
+    text-align: center;
+    
+  }
+  body main #welcome-section .welcome-contents h1 {
+    font-size: 2em;
+
+    
+  }
+  body main #welcome-section .welcome-contents p {
+    font-size: 1em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+
+
+  
