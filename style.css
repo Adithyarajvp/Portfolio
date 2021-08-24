@@ -8,7 +8,7 @@ html {
   }
 body main #welcome-section {
     background-image: linear-gradient(rgba(0, 0, 0, 0.12), rgba(0, 0, 0, 0.37)),
-      url("./images/forestbridge.jpg");
+      url("./images/background.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -31,6 +31,9 @@ body main #welcome-section {
   body main #welcome-section .welcome-contents p {
     font-size: 1em;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  a{
+    margin: 20px;
   }
   
 
